@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
+import CulturePage from './pages/CulturePage';
 import './styles/global.css';
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
-        {/* <Route path="/culture" element={<CulturePage />} /> */}
+        <Route path="/culture" element={<CulturePage />} />
         {/* <Route path="/environment" element={<EnvironmentPage />} /> */}
         {/* <Route path="/positions" element={<PositionsPage />} /> */}
         {/* <Route path="/jobs" element={<JobsPage />} /> */}
